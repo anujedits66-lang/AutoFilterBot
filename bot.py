@@ -40,14 +40,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration - You can use environment variables or set directly
-API_ID = int(os.getenv('API_ID', '21936466'))
-API_HASH = os.getenv('API_HASH', '5d89c2323f79201eb440ab83ff272156')
-BOT_TOKEN = os.getenv('BOT_TOKEN', '7511924283:AAHFTm3_bquGy858_WIrGvB46IUK15xH82w')
-MONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27018/')
-DB_NAME = os.getenv('DB_NAME', 'AutoFilterBot')
-OWNER_ID = int(os.getenv('OWNER_ID', '1633472140'))
-REQUIRED_CHANNEL = os.getenv('REQUIRED_CHANNEL', '-1001557378145')
-SOURCE_CHANNEL_IDS = [int(x) for x in os.getenv('SOURCE_CHANNEL_IDS', '-1001860710176').split(',')]
+API_ID = int(os.getenv('API_ID', '34724970'))
+API_HASH = os.getenv('API_HASH', 'f240eae7c60e8e30c17203ab0e052f7e')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8678729522:AAFgUP9hHS_7ZZWjmI04AEO3QnmLnZLOST4')
+MONGO_URI = os.getenv('MONGO_URI', 'mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0')
+DB_NAME = os.getenv('DB_NAME', 'Anujedit')
+OWNER_ID = int(os.getenv('OWNER_ID', '7521421400'))
+REQUIRED_CHANNEL = os.getenv('REQUIRED_CHANNEL', '-1003793547457')
+SOURCE_CHANNEL_IDS = [int(x) for x in os.getenv('SOURCE_CHANNEL_IDS', '-1003888511173').split(',')]
 BRANDING_TAG = os.getenv('BRANDING_TAG', 'Uploaded By @Netflixian_Movie')
 
 # Validate required configuration
@@ -966,3 +966,4 @@ async def main():
 if __name__ == "__main__":
     # Run the bot
     asyncio.run(main())
+
